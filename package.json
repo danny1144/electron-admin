@@ -1,0 +1,32 @@
+{
+  "name": "electronapp",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "vite preview",
+    "build": "node ./scripts/project.js build",
+    "dev": "node ./scripts/project.js dev",
+    "vite_build": "vue-tsc --noEmit && vite build",
+    "vite_dev": "vite"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.3",
+    "@vue/compiler-sfc": "^3.0.5",
+    "chalk": "^4.1.0",
+    "chokidar": "^3.5.1",
+    "electron": "^11.2.3",
+    "electron-builder": "^22.9.1",
+    "esbuild": "^0.8.34",
+    "typescript": "^4.3.2",
+    "vite": "^2.3.8",
+    "vue-cli-plugin-tailwind": "~2.0.6",
+    "vue-tsc": "^0.0.24"
+  }
+}
